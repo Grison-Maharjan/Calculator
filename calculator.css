@@ -1,0 +1,66 @@
+html{
+    background-image: url(https://cdn.wallpapersafari.com/59/28/U39zZe.jpg);
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+h1{
+    font-family: courier;
+    color: cyan;
+}
+p{
+    color: black;
+    font-size: 20px;
+}
+#Calculator{
+    background-color: gray;
+    border: 3px solid greenyellow;
+    border-radius: 30px;
+    padding: 10px;
+    max-width: fit-content;
+    margin:auto;
+}
+input[type=button]{
+    cursor: pointer;
+    font-size: 20px;
+    margin: 5px;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+input[type=button]:hover{
+    background-color:steelblue;
+    transform: scale(1.15);
+}
+input[type=text]{
+    font-size: 25px;
+    border-radius: 20px;
+    width: 240px;
+    height: 80px;
+}
+#back{
+    cursor: pointer;
+    font-size: 20px;
+    margin: 5px;
+    border-radius: 50px;
+    width: 72px;
+    height: 45px;
+}
+#clear{
+    cursor: pointer;
+    font-size: 20px;
+    margin: 5px;
+    border-radius: 50px;
+    width: 72px;
+    height: 45px;
+}
+#equal{
+    cursor: pointer;
+    font-size: 20px;
+    margin: 5px;
+    border-radius: 50px;
+    width: 72px;
+    height: 45px;
+}
+#output{
+    text-align: right;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Calculator</title>
+        <link rel="stylesheet" href="calculator.css">
+    </head>
+    <body>
+        <center><h1>Calculator</h1></center>
+        <div id="Calculator">
+            <form name="cal">
+                <p title="CASIO">CASIO</p>
+                <div id="text">
+                    <input type="text" id="output" name="display">
+                </div>
+                <br>
+                <input type="button" value="7" onclick="cal.display.value+='7'">
+                <input type="button" value="8" onclick="cal.display.value+='8'">
+                <input type="button" value="9" onclick="cal.display.value+='9'">
+                <input type="button" value="%" onclick="cal.display.value+='%'">
+                <br><br>
+                <input type="button" value="4" onclick="cal.display.value+='4'">
+                <input type="button" value="5" onclick="cal.display.value+='5'">
+                <input type="button" value="6" onclick="cal.display.value+='6'">
+                <input type="button" value="/" onclick="cal.display.value+='/'">
+                <br><br>
+                <input type="button" value="1" onclick="cal.display.value+='1'">
+                <input type="button" value="2" onclick="cal.display.value+='2'">
+                <input type="button" value="3" onclick="cal.display.value+='3'">
+                <input type="button" value="*" onclick="cal.display.value+='*'">
+                <br><br>
+                <input type="button" value="." onclick="cal.display.value+='.'">
+                <input type="button" value="0" onclick="cal.display.value+='0'">
+                <input type="button" value="+" onclick="cal.display.value+='+'">
+                <input type="button" value="-" onclick="cal.display.value+='-'">
+                <br><br>
+                <input type="button" id="back" value="<-" onclick="cal.display.value=cal.display.value.substring(0,cal.display.value.length*1-1)">
+                <input type="button" id="clear" value="C" onclick="cal.display.value=''">
+                <input type="button" id="equal" value="=" onclick="cal.display.value=eval(cal.display.value)">
+            </form>
+        </div>
+    </body>
+</html>
